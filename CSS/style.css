@@ -17,7 +17,7 @@ body {
   color: #f6f5f5;
 }
 .wrapper {
-  background-image: url("C:/Users/Admin/Desktop/Kucherjashka/Front_end_Basic/StarWars_AnnaRudka/Images/2.jpg");
+  background-image: url("C:/Users/Admin/Desktop/Kucherjashka/Front_end_Basic/StarWars_AnnaRudka/StarWars/Images/4.jpg");
 }
 .logo__link {
   height: 90px;
@@ -116,16 +116,17 @@ slider-container,
   width: 100%;
 }
 
-p {
+p,
+footer {
   font-size: 14px;
   padding: 20px;
 }
 .contacts {
   display: flex;
 }
-.content-item {
-  padding-left: 15px;
-}
 .contacts li {
   padding: 15px;
+}
+.content-item:active {
+  color: #2196f3;
 }
