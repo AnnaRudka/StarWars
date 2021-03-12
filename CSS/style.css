@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(8, 8, 8);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #f6f5f5;
+}
+.wrapper {
+  background-image: url("C:/Users/Admin/Desktop/Kucherjashka/Front_end_Basic/StarWars_AnnaRudka/Images/2.jpg");
+}
+.logo__link {
+  height: 90px;
+  padding: 5px 30px;
+}
+.flex-03 {
+  flex: 0 0 30%;
+  padding: 20px;
+}
+.flex-07 {
+  flex: 0 0 68%;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+h3 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+header,
+.content__list,
+.item__description,
+footer,
+slider-container,
+.slider {
+  background-color: black;
+}
+.header__inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu-item {
+  margin: 0 20px;
+}
+
+.btn__menu {
+  text-transform: uppercase;
+  color: #f6f5f5;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 5px;
+  transition: all 0.5s;
+  border: none;
+  border-bottom: 1px solid transparent;
+  background-color: black;
+}
+
+.btn__menu:hover {
+  box-shadow: 0 0 15px #2196f3;
+}
+
+.btn__menu:active,
+:focus {
+  border: 2px #2196f3 solid;
+}
+
+.content,
+.slider {
+  margin: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-card {
+  display: flex;
+}
+
+.item__description {
+  margin-left: 20px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+}
+.item__description:hover {
+  transform: scale(1.15);
+}
+.item-image {
+  max-width: 300px;
+  padding: 15px;
+}
+.item-image img {
+  width: 100%;
+}
+
+p {
+  font-size: 14px;
+  padding: 20px;
+}
+.contacts {
+  display: flex;
+}
+.content-item {
+  padding-left: 15px;
+}
+.contacts li {
+  padding: 15px;
+}

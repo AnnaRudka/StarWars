@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StarWars</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+    <header>
+        <div>
+            <div class="header__inner">
+                <a href="#" class="logo">
+                    <img class="logo__link" src="Images/51632.jpg" alt="Logo"></a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu-item"><button class="btn__menu" data-component="planets">Planets</button></li>
+                        <li class="menu-item"><button class="btn__menu" data-component="people">Characters</button></li>
+                        <li class="menu-item"><button class="btn__menu" data-component="starships">Starships</button></li>
+                        <li class="menu-item"><button class="btn__menu" data-component="films">Films</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Slider-->
+    <section>
+        <div class="container slider">
+            <div class="flex-03 item-image"><img src="Images/Baby-Yoda.jpg" alt="Photo-fact" class="slider-item-image"></div>
+            <div classs = "flex-07">
+                <h3>Amazing "Star Wars" Facts</h3>
+                <h4>Yoda's original name was Buffy</h4>
+                <p class="slider-item-text">
+                In the very, very early writing stages of The Empire Strikes Back, Yoda’s original name was—brace yourself—Buffy. Yes,
+                Buffy, a name we usually associate with awesome teenage vampire slayers. The world would have been a very different
+                place if Yoda had somehow been given this very un-Yoda-like name.</p></div>
+        </div>
+    </section>
+    <!--Content-->
+    <section class="content">
+        <div class="container">
+            <div class="content__list flex-03">
+                <h3>Planet list</h3>
+            <ul>
+                <li class="content-item">Tatooine</li>
+                <li class="content-item">Alderaan</li>
+                <li class="content-item">Hoth</li>
+                <li class="content-item">Dagobah</li>
+                <li class="content-item">Tatooine</li>
+                <li class="content-item">Alderaan</li>
+                <li class="content-item">Hoth</li>
+                <li class="content-item">Dagobah</li>
+                <li class="content-item">Tatooine</li>
+            </ul>
+            </div>
+            <div class="item__description flex-07">
+<div class="item-card">
+    <div class="item-image"><img class="item-img" src="Images/3.jpg" alt="Image"></div>
+    <div class="item-details">
+        <h3>Alderaan</h3>
+        <ul className="properties-list">
+            <li className="property">
+                <span className="term">Population:</span>
+                <span>2,000,000,000</span>
+            </li>
+            <li className="property">
+                <span className="term">Rotation Period:</span>
+                <span>24 days</span>
+            </li>
+            <li className="property">
+                <span className="term">Diameter:</span>
+                <span>12,500km</span>
+            </li>
+            <li className="property">
+                <span className="term">Climate:</span>
+                <span>Temperate</span>
+            </li>
+            <li className="property">
+                <span className="term">Orbital Period</span>
+                <span>364 days</span>
+            </li>
+            <li className="property">
+                <span className="term">Climate:</span>
+                <span>Temperate</span>
+            </li>
+        </ul>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+<footer>
+    <p> Designet and developed by Anna Rudka</p>
+    <ul class="contacts"> <p>Contacts:</p>
+        <li><a href="#"><i class="fab fa-linkedin symbols"></i> LinkedIn</a></li>
+        <li><a href="#"><i class="fab fa-github-square symbols"></i> GitHub</a></li>
+        <li><i class="fas fa-phone-alt symbols"></i>+38(096)2775889</li>
+        <li><a href="#"><i class="fab fa-telegram symbols"></i>Telegram</a></li>
+         </ul>
+</footer>
+</div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
