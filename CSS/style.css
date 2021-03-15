@@ -11,13 +11,13 @@ html {
 body {
   background-color: rgb(8, 8, 8);
   font-family: "Lato", sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 25px;
   font-weight: 400;
   color: #f6f5f5;
 }
 .wrapper {
-  background-image: url("C:/Users/Admin/Desktop/Kucherjashka/Front_end_Basic/StarWars_AnnaRudka/StarWars/Images/4.jpg");
+  background-image: url("../images/5.jpg");
 }
 .logo__link {
   height: 90px;
@@ -78,6 +78,7 @@ slider-container,
 
 .btn__menu:hover {
   box-shadow: 0 0 15px #2196f3;
+  cursor: pointer;
 }
 
 .btn__menu:active,
@@ -106,11 +107,12 @@ slider-container,
   transition: all 0.5s;
 }
 .item__description:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 .item-image {
   max-width: 300px;
   padding: 15px;
+  min-width: 290px;
 }
 .item-image img {
   width: 100%;
@@ -119,7 +121,9 @@ slider-container,
 p,
 footer {
   font-size: 14px;
-  padding: 20px;
+}
+footer {
+  padding: 10px;
 }
 .contacts {
   display: flex;
@@ -127,6 +131,14 @@ footer {
 .contacts li {
   padding: 15px;
 }
+
 .content-item:active {
   color: #2196f3;
+}
+
+.active {
+  color: #2196f3;
+}
+.content-item:hover {
+  cursor: pointer;
 }
