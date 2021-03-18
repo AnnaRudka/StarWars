@@ -1,7 +1,8 @@
-import { createPlanets } from "./planets.js";
-import { onPeopleClick } from "./people.js";
-import { onStarshipClick } from "./starships.js";
-import { getMenu } from "./helpers.js";
+import { createPlanets } from "../components/planets.js";
+import { onPeopleClick } from "../components/people.js";
+import { onStarshipClick } from "../components/starships.js";
+import { onFilmsClick } from "../components/films.js";
+import { getMenu } from "../helpers/helpers.js";
 
 export function createMenu() {
   getMenu().forEach((menuItem) => {

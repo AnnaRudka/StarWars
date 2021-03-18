@@ -20,6 +20,8 @@ const createPeopleList = () =>
     .join("");
 
 export function onPeopleClick() {
+  setDetails(" ");
+  setDetailsImage("Please select an item to display the details!");
   setHeaderOfList("Characters list loading...");
   getPeople().then((data) => {
     peopleList = data.results;

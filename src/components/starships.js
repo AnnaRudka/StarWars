@@ -12,6 +12,8 @@ import { getStarships } from "../api/api.js";
 let starshipList = [];
 
 export function onStarshipClick() {
+  setDetails(" ");
+  setDetailsImage("Please select an item to display the details!");
   setHeaderOfList("Characters list loading...");
   getStarships().then((data) => {
     starshipList = data.results;
